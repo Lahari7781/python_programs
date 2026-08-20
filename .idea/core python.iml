@@ -7,6 +7,9 @@
       <excludeFolder url="file://$MODULE_DIR$/lambda/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/map/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/reduce/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/class/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/magic_methods/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/dunder_methods/.venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.14 (core python) (2)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
