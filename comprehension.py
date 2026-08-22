@@ -69,3 +69,25 @@ n= [10, 15, 20, 25, 30, 35]
 gen=(i for i in n if i>20)
 for i in gen:
     print(i)
+# 13.Student Result System Given:
+marks = {"Rahul": 85,"Anil": 32,"Priya": 76,"Sneha": 45,"Kiran": 28}
+# Using dictionary comprehension, create a new dictionary where each student's name is mapped to:
+#
+# "Distinction" if marks are >= 75
+# "Pass" if marks are >= 40
+# "Fail" otherwise
+dict={i:"Destinction" if marks[i]>=75 else "Pass" if marks[i]>=40 else "Fail" for i in marks}
+print(dict)
+# 14. Given:
+usernames = ["admin", "charan", "root", "guest", "developer"]
+#
+# Create a dictionary using dictionary comprehension where each username is mapped to "Valid" if its length is at least 5, otherwise "Invalid".
+dict={i:"Valid" if len(i)>=5 else "Invalid" for i in usernames}
+print(dict)
+# 15. Given:
+names = ["Rahul", "Priya", "Kiran", "Sneha"]
+marks = [75, 35, 82, 28]
+# Create a dictionary using dictionary comprehension: {"Rahul": "Pass", "Priya": "Fail", "Kiran": "Pass", "Sneha": "Fail"}
+# Do not use zip() and do not use a traditional for loop.
+dict={names[i]:"Pass" if marks[i]>35 else "fail" for i in range(0,len(names))}
+print(dict)
